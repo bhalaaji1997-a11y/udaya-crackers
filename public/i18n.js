@@ -39,7 +39,7 @@
     'bag.delivery': ['Delivery', 'டெலிவரி'],
     'bag.free': ['FREE', 'இலவசம்'],
     'bag.total': ['Total', 'மொத்தம்'],
-    'bag.checkout': ['Continue to checkout', 'செக்-அவுட்டைத் தொடரவும்'],
+    'bag.checkout': ['Checkout', 'செக்-அவுட்'],
     'bag.trust': ['Secure ordering', 'பாதுகாப்பான ஆர்டர்'],
     'bag.safeDelivery': ['Safe delivery across India', 'இந்தியா முழுவதும் பாதுகாப்பான டெலிவரி'],
     'drawer.ready': ['Ready to', 'தயாரா'],

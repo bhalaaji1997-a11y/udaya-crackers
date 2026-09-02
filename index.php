@@ -155,7 +155,7 @@ $categoryIcons = [
           <div><span data-i18n="bag.subtotal">Subtotal</span><strong id="bill-subtotal">₹0</strong></div>
           <div><span data-i18n="bag.delivery">Delivery</span><strong class="free-delivery" data-i18n="bag.free">FREE</strong></div>
           <div class="bill-total"><span data-i18n="bag.total">Total</span><strong id="bill-total">₹0</strong></div>
-          <button class="button button-dark checkout-open" type="button"><span data-i18n="bag.checkout">Continue to checkout</span> <span>↗</span></button>
+          <button class="button button-dark checkout-open" type="button"><span data-i18n="bag.checkout">Checkout</span> <span>↗</span></button>
         </div>
         <div class="bill-trust"><span>✓</span> <span data-i18n="bag.trust">Secure ordering</span> <span>✓</span> <span data-i18n="bag.safeDelivery">Safe delivery across India</span></div>
       </aside>

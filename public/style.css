@@ -88,11 +88,11 @@ h2 em { color: var(--orange); }
 .category-pill span { color: var(--orange); font-size: 15px; }
 .category-pill:hover, .category-pill.active { color: white; background: var(--orange); border-color: var(--orange); }
 .category-pill:hover span, .category-pill.active span { color: var(--gold); }
-.product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 23px 14px; }
+.product-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 23px 14px; }
 .product-card { min-width: 0; animation: card-in .45s both; }
 .product-card.is-hidden { display: none; }
 @keyframes card-in { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: translateY(0); } }
-.product-image-wrap { height: 188px; background: var(--paper); position: relative; overflow: hidden; }
+.product-image-wrap { height: 150px; background: var(--paper); position: relative; overflow: hidden; }
 .product-image { width: 100%; height: 100%; object-fit: cover; mix-blend-mode: multiply; transition: transform .4s; }
 .product-card:hover .product-image { transform: scale(1.04); }
 .discount, .product-tag { position: absolute; z-index: 1; top: 10px; padding: 5px 8px; font-size: 9px; font-weight: 700; }
@@ -100,14 +100,14 @@ h2 em { color: var(--orange); }
 .product-tag { left: 10px; background: var(--gold); color: #4b2117; }
 .product-info { padding: 12px 2px 0; }
 .product-category { color: var(--orange); font-size: 8px; letter-spacing: .12em; text-transform: uppercase; font-weight: 700; margin-bottom: 6px; }
-.product-info h3 { font-family: var(--serif); font-size: 17px; line-height: 1.1; margin-bottom: 4px; letter-spacing: -.02em; }
+.product-info h3 { font-family: var(--serif); font-size: 15px; line-height: 1.1; margin-bottom: 4px; letter-spacing: -.02em; }
 .product-tamil { font-size: 10px; color: var(--muted); margin-bottom: 7px; }
 .product-unit { color: #9b8780; font-size: 9px; margin-bottom: 10px; }
 .product-stock { color: #4f8b60; font-size: 9px; margin: -2px 0 10px; }
 .product-stock.is-low { color: #bc791d; }
 .product-stock.is-out { color: #a34a4a; }
 .product-buy { display: flex; justify-content: space-between; align-items: center; gap: 5px; }
-.product-buy strong { font-size: 15px; }
+.product-buy strong { font-size: 13px; }
 .product-buy del { font-size: 9px; color: #aa9890; margin-left: 5px; }
 .product-action { display: flex; align-items: center; gap: 5px; margin-left: auto; }
 .quantity-stepper { display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--line); background: #fffdf9; border-radius: 999px; overflow: hidden; flex-shrink: 0; }
